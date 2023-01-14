@@ -1,0 +1,134 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  }
+ 
+
+  a{
+    color:yellow;
+    text-decoration: none;
+}
+
+a.active{
+    color:greenyellow;
+    font-weight: bold;
+}
+
+.bajar-titulo {
+  margin-top: 70px;
+  color: greenyellow;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.contenedor {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+}
+
+.contenedor h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: greenyellow;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  text-align: center;
+}
+
+.fondo {
+  background-image: url('/public/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+#contenedor-card{display: flex;}
+#card {
+  width: 300px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  color: #000000;
+  margin-top: 60px; 
+  position: relative;
+}
+  
+  
+  #card .hp {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color:black;
+  background-color: white;
+  padding: 5px;
+  border-radius: 30%;
+  }
+  
+  #card img {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0;
+  }
+  
+  #card .poke-name {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 20px;
+  }
+  
+  #card .types {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  }
+  
+  #card .types span {
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  }
+  
+  #card .stats {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  }
+  
+  #card .stats div {
+  text-align: center;
+  }
+  
+  #card .stats h3 {
+  font-size: 20px;
+  color: black;
+  }
+  
+  #card .stats p {
+  color: black;
+  }
+  
+  #card div {
+  text-align: center;
+  }
+  
+  #card h3 {
+  font-size: 20px;
+  color: black;
+  }
+  
+  #card p {
+  color: black;
+  }
+
