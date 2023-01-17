@@ -4,5 +4,5 @@
 
 - Utilizacion de la Poke API para obtener los datos de los pokemones y cargarlos en las vistas que correspondan.
 
-Link a Web: https://sergi199904.github.io/Pokemon-App/
+Link a Web: https://ephemeral-tanuki-3dc9b8.netlify.app/
 
